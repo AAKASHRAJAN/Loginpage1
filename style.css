@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smooch Sans", sans-serif;
+}
+body{
+   
+    width: 100vw;
+    height: 100vh;
+}
+.full-screen{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    border-radius:54px;
+    
+}
+.full-box{
+    display: flex;
+    justify-content: space-around;
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin:  0px 100px 0px 100px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+input{
+    width: 364px;
+    height: 52px;
+    border-radius: 13px;
+    padding-left: 40px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+.nextBtn{
+    width: 364px;
+    height: 52px;
+    background-color:black;
+    color: #fff;
+    border-radius: 13px;
+    border: none;
+    padding: 17px 166px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.loginBtn{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 52px;
+    padding: 11px 100px;
+    border-radius: 13px;
+    border: 1px solid black;
+    gap:8px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+a
+{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+.bold{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+}
+.bold2{
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 700;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa {
+
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }  
+  .logo{
+    height: 20x;
+    width: 20px;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .welcome{
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 144px;
+  }
+  p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .boy{
+    padding: 15px;
+  }
+  .inputBox{
+
+    position: relative;
+    
+  }
+  .inputBox .icon{
+    position: absolute;
+    align-items: center;
+    top:14px;
+    left: 10px;
+  }
+
+
